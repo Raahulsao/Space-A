@@ -1,0 +1,31 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "users": {
+      ".read": true,
+      ".write": true
+    },
+    "status": {
+      "$uid": {
+        ".read": true,
+        ".write": true
+      }
+    },
+    "messages": {
+      "$chat_id": {
+        ".read": true,
+        ".write": true,
+        ".indexOn": ["timestamp"]
+      }
+    },
+    "typing": {
+      "$chat_id": {
+        "$uid": {
+          ".read": true,
+          ".write": true
+        }
+      }
+    }
+  }
+}
