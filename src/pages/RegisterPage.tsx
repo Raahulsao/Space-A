@@ -115,7 +115,7 @@ const RegisterPage: React.FC = () => {
           Create your account
         </h2>
         <p className="mt-2 text-center text-sm text-indigo-200">
-          Join Space-A and connect with university students
+          Join Space-A and connect with AUC students. If you facing issues please check your details or try clearing cache on your browser.
         </p>
       </div>
 

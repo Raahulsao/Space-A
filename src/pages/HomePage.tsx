@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
       <div className="flex-1 container mx-auto px-4 py-12 max-w-4xl">
         <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 text-center p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Welcome to Space-A, {user.full_name}!</h2>
-          <p className="text-gray-600 mb-8">Connect with other students from your university.</p>
+          <p className="text-gray-600 mb-8">Connect with other students from your university . THIS IS IN BETA VERSION AND WE ADDING FEATURES EVERYDAY. SO keep explore.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-lg mx-auto">
             <Link to="/chat" className="flex flex-col items-center p-6 bg-indigo-50 rounded-xl hover:bg-indigo-100 transition-colors">

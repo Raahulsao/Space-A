@@ -70,7 +70,7 @@ const LoginPage: React.FC = () => {
           Sign in to Space-A
         </h2>
         <p className="mt-2 text-center text-sm text-indigo-200">
-          Connect with university students
+          Connect with AUC students. If you facing issues please check your details or try clearing cache on your browser.
         </p>
       </div>
 
